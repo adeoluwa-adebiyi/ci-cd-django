@@ -34,5 +34,5 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with Django Test
       run: |
-        chdir ci_cd_django
+        cd ci_cd_django
         sh tester.sh
