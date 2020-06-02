@@ -1,0 +1,1 @@
+python manage.py test --settings=ci_cd_django.settings_files.dev
